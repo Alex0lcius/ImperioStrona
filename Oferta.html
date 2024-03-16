@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="logo1.png">
+		<title> Imperio Ochrona Sp. Z.o.o </title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="navi.css">
+		<link rel="stylesheet" href="onas.css">
+		<link rel="stylesheet" href="oferta.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+		
+	</head>
+	<body>
+		<header class="header">
+			<img src="logo3.png" alt="logo firmy" id="logo">
+		</header>
+			<nav>
+					<input type= "checkbox" id= "check">
+					<label for= "check" class= "checkbtn">
+						<i class="fas fa-bars"></i>
+					</label>
+					<ul>
+						<li><a class="active" href="index.html"><b>Główna</b></a></li>
+						<li><a href="O_Nas.html"><b>O nas</b></a></li>
+						<li><a href="Oferta.html"><b>Oferta</b></a></li>
+						<li><a href="Kontakt.html"><b>Kontakt</b></a></li>
+				 	</ul>
+				</div>
+			</nav>
+            <div class="all" id="blur">
+				<div class="oferta">
+					<div class="oferta-items">
+						<div class="oferta-item">
+							W ostatnich latach ma miejsce coroczna waloryzacja stawki minimalnego wynagrodzenia z
+                            umowy o prace jak i określenie minimalnej stawki godzinowej dla osób zatrudnionych na
+                            umowę zlecenie. W bieżącym roku kalendarzowym również została podjęta decyzja o
+                            podwyższeniu w/w świadczeń a co za tym idzie - rosną ceny na usługi oraz wiele innych
+                            składowych mających wpływ na funkcjonowanie firmy.
+                            Wobec powyższego w oparciu o dotychczasową współprace oraz wymagania stawiane
+                            nam jako zleceniobiorcy, a także dostosowanie się do panującej sytuacji
+                            na rynku ochrony, proponujemy państwu usługi w postaci Autonomicznej Wieży
+                            Monitoringu Wizyjnego oraz Innowacyjnego Bezprzewodowego Systemu Alarmowego
+                            oferującego kompleksowe rozwiązania do ochrony mienia i bezpieczeństwa.
+                            Usługa ta pozwoli państwu zmniejszyć koszt zabezpieczenia przy zachowaniu wysokich standardów ochrony.
+						</div>
+					</div>
+				</div>
+				<section class="opis">
+					<div class="opis-title">
+						Nasze Systemy
+					</div>
+
+					<div class="opis-main">
+
+						<div class="opis-item">
+							<div class="opis-text3">Sowa</div>
+							<img src="SowaTower.jpg" class="img-opis1">
+							<a href = "#" onclick="toggle1()"><div class="opis-text1"> Dowiedz się więcej </div></a>
+						</div>
+						
+						<div class="opis-item">
+							<div class="opis-text3">Fenix</div>
+							<img src="Fenix.jpg" class="img-opis1">
+							<a href = "#" onclick="toggle2()"><div class="opis-text1"> Dowiedz się więcej </div></a>
+						</div>
+					</div>
+					<div class="opis-main1">
+						<div class="opis-item">
+							<div class="opis-text2">Fenix Pro</div>
+							<img src="FenixPro.png" class="img-opis3">
+							<a href = "#" onclick="toggle3()"><div class="opis-text1"> Dowiedz się więcej </div></a>
+						</div>
+					</div>
+				</section>
+				<div>
+					<img src="kamera.png" class="obraz1">
+				</div>
+			</div>	
+            <footer>
+                Copyright @ IMPERIO OCHRONA SP. Z.O.O, <span id="span">2024</span>
+    </footer>
+
+        <div id="popup1">
+            <h1>Sowa</h1>
+            <img src="SowaTower.jpg" class="all-opis1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis soluta explicabo cupiditate, ea delectus cum! Soluta voluptatem, quam vel culpa omnis quis dolore minima rem animi dolorem natus exercitationem praesentium?</p>
+            <a href = "#" onclick="toggle1()" class="close"> Zamknij </a>
+        </div>
+        <div id="popup2">
+            <h1>Fenix</h1>
+            <img src="Fenix.jpg" class="all-opis2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis soluta explicabo cupiditate, ea delectus cum! Soluta voluptatem, quam vel culpa omnis quis dolore minima rem animi dolorem natus exercitationem praesentium?</p>
+            <a href = "#" onclick="toggle2()" class="close"> Zamknij </a>
+        </div>
+        <div id="popup3">
+            <h1>Fenix Pro</h1>
+            <img src="FenixPro.png" class="all-opis3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis soluta explicabo cupiditate, ea delectus cum! Soluta voluptatem, quam vel culpa omnis quis dolore minima rem animi dolorem natus exercitationem praesentium?</p>
+            <a href = "#" onclick="toggle3()" class="close"> Zamknij </a>
+        </div>
+		<script type="text/javascript">
+            function toggle1(){
+                var blur = document.getElementById('blur');
+                blur.classList.toggle('active')
+
+                var popup1 = document.getElementById('popup1');
+                popup1.classList.toggle('active')
+            }
+            function toggle2(){
+                var blur = document.getElementById('blur');
+                blur.classList.toggle('active')
+
+                var popup2 = document.getElementById('popup2');
+                popup2.classList.toggle('active')
+            }
+            function toggle3(){
+                var blur = document.getElementById('blur');
+                blur.classList.toggle('active')
+
+                var popup3 = document.getElementById('popup3');
+                popup3.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,381 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#logo {
+	width: 20%;
+	margin: 4px 4px;
+	padding: 0 39%;
+	position: relative;
+}
+.header {
+	
+	font-family: "Gilroy-Bold", sans-serif;
+	background-color: #fff8dc;
+}
+#1 {
+	border-bottom: 15px solid #6c6b6b;
+}
+.main {
+	padding-top: 90px;
+	padding-bottom: 230px;
+	border-top: 15px solid #6c6b6b;
+	display: block;
+}
+.obraz {
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	opacity: 0.4;
+}
+.tlo {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.main .tlo {
+	position: relative;
+	display: flex;
+	justify-content: right;
+	display: block;
+}
+
+.info {
+	max-width: 700px;
+	display: block;
+}
+.title {
+	font-family: "Merriweather";
+	font-size: 50px;
+	line-height: 130%;
+	padding-left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	margin-left: -20%;
+	margin-top: -5%;
+	margin-bottom: 15px;
+	color: #ef900e;
+	float: left;
+	display: grid;
+	z-index: 0;
+	border: solid 2px;
+	border-radius: 20px;
+	background-color: white;
+}
+p {
+	display: block;
+	font-family: "Gilroy-Bold", sans-serif;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	color: #ef900e;
+}
+.text {
+	font-size: 22px;
+	line-height: 33px;
+	display: grid;
+	z-index: 0;
+	border: solid 2px;
+	border-radius: 20px;
+	background-color: white;
+	padding-left: 20px;
+	margin-left: -20%;
+	letter-spacing: 0.03em;
+	margin-bottom: -10%;
+}
+
+footer {
+	border-top: 15px solid #6c6b6b;
+	color: #8c837aff;
+	text-align: center;
+	font-size: 15px;
+	font-family: "Gilroy-Bold", sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #fff8dc;
+	line-height: 15%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+#span {
+	color: #8c837aff;
+}
+/* <600px, 601px, 768px */
+@media only screen and (max-width: 600px) and (max-width: 768px) {
+	
+	.main {
+		padding-top: 90px;
+		padding-bottom: 230px;
+		border-top: 15px solid #6c6b6b;
+		display: block;
+		width: 100%;
+	}
+	.info {
+		max-width: 300px;
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.obraz {
+		position: fixed;
+		top: 0%;
+		right: 1%;
+		z-index: -1;
+		width: 100%;
+		opacity: 0.4;
+		width: 1500px;
+	}
+	.title {
+		font-family: "Merriweather";
+		font-size: 20px;
+		line-height: 130%;
+		padding-left: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+		margin-left: 5%;
+		margin-top: -22%;
+		margin-bottom: 15px;
+		color: #ef900e;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 10px;
+		background-color: white;
+	}
+	.text {
+		font-size: 15px;
+		line-height: 25px;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 10px;
+		background-color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: -20%;
+		letter-spacing: 0.03em;
+		margin-bottom: 10%;
+		margin-left: 5%;
+	}
+}
+
+
+/* 992px, 1200px */
+
+@media only screen and (min-width: 992px) {
+	.main {
+		width: 100%;
+	}
+	.text {
+		font-size: 20px;
+		line-height: 20px;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+		padding: 20px;
+		margin-left: 10%;
+		letter-spacing: 0.03em;
+		margin-bottom: 20%;
+		
+	}
+	.title {
+		font-family: "Merriweather";
+		font-size: 30px;
+		line-height: 130%;
+		padding-left: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+		margin-left: 10%;
+		margin-top: -5%;
+		margin-bottom: 15px;
+		color: #ef900e;
+		float: left;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+	}
+	.obraz {
+		position: fixed;
+		top: 0%;
+		z-index: -1;
+		width: 100%;
+		opacity: 0.4;
+		width: 1500px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.main {
+		width: 100%;
+	}
+	.text {
+		font-size: 30px;
+		line-height: 30px;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+		padding: 20px;
+		margin-left: 5%;
+		letter-spacing: 0.03em;
+		margin-bottom: 14%;
+		
+	}
+	.title {
+		font-family: "Merriweather";
+		font-size: 40px;
+		line-height: 130%;
+		padding-left: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+		margin-left: 5%;
+		margin-top: -5%;
+		margin-bottom: 15px;
+		color: #ef900e;
+		float: left;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+	}
+	.obraz {
+		position: fixed;
+		top: 0%;
+		z-index: -1;
+		width: 100%;
+		opacity: 0.4;
+		width: 1500px;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	.main {
+		width: 100%;
+	}
+	.text {
+		font-size: 40px;
+		line-height: 50px;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+		padding: 20px;
+		margin-left: -20%;
+		letter-spacing: 0.03em;
+		margin-bottom: 20%;
+		margin-right: -50%;
+	}
+
+	.title {
+		font-family: "Merriweather";
+		font-size: 50px;
+		line-height: 130%;
+		padding-left: 20px;
+		text-transform: uppercase;
+		letter-spacing: 0.03em;
+		margin-left: -20%;
+		margin-top: -5%;
+		margin-bottom: 15px;
+		color: #ef900e;
+		float: left;
+		display: grid;
+		z-index: 0;
+		border: solid 2px;
+		border-radius: 20px;
+		background-color: white;
+		margin-right: -50%;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		list-style: none;
+	}
+	#logo {
+		width: 20%;
+		margin: 4px 4px;
+		padding: 0 39%;
+		position: relative;
+	}
+	.header {
+		
+		font-family: "Gilroy-Bold", sans-serif;
+		background-color: #fff8dc;
+	}
+	#1 {
+		border-bottom: 15px solid #6c6b6b;
+	}
+	.main {
+		padding-top: 90px;
+		padding-bottom: 230px;
+		border-top: 15px solid #6c6b6b;
+		display: block;
+	}
+	.obraz {
+		position: fixed;
+		top: 0;
+		z-index: -1;
+		width: 100%;
+		opacity: 0.4;
+	}
+	.tlo {
+		max-width: 1000px;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.main .tlo {
+		position: relative;
+		display: flex;
+		justify-content: right;
+		display: block;
+	}
+	
+	.info {
+		max-width: 700px;
+		display: block;
+	}
+
+	p {
+		display: block;
+		font-family: "Gilroy-Bold", sans-serif;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		color: #ef900e;
+	}
+	
+	footer {
+		border-top: 15px solid #6c6b6b;
+		color: #8c837aff;
+		text-align: center;
+		font-size: 15px;
+		font-family: "Gilroy-Bold", sans-serif;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #fff8dc;
+		line-height: 15%;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	#span {
+		color: #8c837aff;
+	}
+}
