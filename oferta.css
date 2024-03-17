@@ -460,7 +460,7 @@ p{
 	#popup1 {
 		position: fixed;
 		top: 40%;
-		right: 50%;
+		right: 53%;
 		transform: translate(-50, -50%);
 		width: 200px;
 		padding: 30px;
@@ -479,7 +479,7 @@ p{
 	#popup2 {
 		position: fixed;
 		top: 40%;
-		right: 50%;
+		right: 53%;
 		transform: translate(-50, -50%);
 		width: 200px;
 		padding: 30px;
@@ -498,7 +498,7 @@ p{
 	#popup3 {
 		position: fixed;
         top: 40%;
-        right: 45.5%;
+        right: 48.5%;
         transform: translate(-50, -50%);
         width: 260px;
         padding: 30px;
@@ -541,7 +541,7 @@ p{
 		margin-bottom: 7%;
 		border-radius: 15px;
         align-items: center;
-        margin-left: -3%;
+        margin-left: -8%;
 	}
 	.close {
 		font-family: "Gilroy-Bold", sans-serif;
